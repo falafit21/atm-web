@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import th.ac.ku.atm.Model.BankAccount;
-import th.ac.ku.atm.service.BankAccountService;
+import th.ac.ku.atm.Service.BankAccountService;
 
 @Controller
 @RequestMapping("/bankaccount")
