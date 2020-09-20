@@ -1,4 +1,4 @@
-package th.ac.ku.atm.controller;
+package th.ac.ku.atm.Model;
 
 public class Customer {
     private int id;
