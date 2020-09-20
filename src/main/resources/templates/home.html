@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{fragments/main_layout}"
+      xmlns:th="https://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
-    <link th:rel="stylesheet" th:href="@{css/mystyle.css}">
     <link th:rel="stylesheet" th:href="@{css/bootstrap.min.css}">
+
+    <!--    google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <!--    import style -> my_style.css (static/css/my_style.css-->
+    <link th:rel="stylesheet" th:href="@{css/mystyle.css}">
 </head>
 <body>
-<div class="container">
+<div class="container" layout:fragment="content">
     <div class="jumbotron">
         <h1 class="display-4 my-font" th:text="${greeting}"></h1>
         <p><a th:href="@{/customer}">Customer Registration</a></p>
