@@ -1,4 +1,4 @@
-package th.ac.ku.atm.Service;
+package th.ac.ku.atm.service;
 
 import org.springframework.stereotype.Service;
 import th.ac.ku.atm.Model.BankAccount;
