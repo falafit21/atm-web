@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link th:rel="stylesheet" th:href="@{css/mystyle.css}">
     <link th:rel="stylesheet" th:href="@{css/bootstrap.min.css}">
 </head>
 <body>
 <div class="container">
     <div class="jumbotron">
-        <h1 class="display-4" th:text="${greeting}"></h1>
+        <h1 class="display-4 my-font" th:text="${greeting}"></h1>
+        <p><a th:href="@{/customer}">Customer Registration</a></p>
     </div>
 </div>
 
