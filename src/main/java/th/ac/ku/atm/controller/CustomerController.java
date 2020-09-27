@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 //import th.ac.ku.atm.Service.CustomerService;
 import th.ac.ku.atm.Model.Customer;
-import th.ac.ku.atm.service.CustomerService;
+import th.ac.ku.atm.Service.CustomerService;
+//import th.ac.ku.atm.service.CustomerService;
 //import th.ac.ku.atm.service.CustomerService;
 
 @Controller
