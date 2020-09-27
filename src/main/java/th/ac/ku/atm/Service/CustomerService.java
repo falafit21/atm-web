@@ -49,8 +49,8 @@ public class CustomerService {
 //        }
 //        return null;
         try {
-            return repository.findById(id);
-        } catch (EmptyResultDataAccessException e) {
+            return repository.findById(id).get();
+        } catch (NoSuchElementException e) {
             return null;
         }
 
