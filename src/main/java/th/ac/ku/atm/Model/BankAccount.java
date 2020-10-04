@@ -9,6 +9,7 @@ public class BankAccount {
     private int customerId;
     private String type;
     private double balance;
+    private double amount;
 
 //    public BankAccount(int id, int customerId, String type, double balance) {
 //        this.id = id;
@@ -16,6 +17,15 @@ public class BankAccount {
 //        this.type = type;
 //        this.balance = balance;
 //    }
+
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
 
     public int getId() {
         return id;
